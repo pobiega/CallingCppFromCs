@@ -11,7 +11,7 @@ Console.WriteLine($"{a} + {b} = {result}");
 
 public static class CppFunctions
 {
-    private const string DllPath = @"..\..\..\x64\Debug\MyCppCode.dll";
+    private const string DllPath = @"..\..\..\..\x64\Debug\MyCppCode.dll";
 
     [DllImport(DllPath, CallingConvention = CallingConvention.Cdecl)]
     public static extern int Add(int a, int b);
